@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Quiz</title>
+    <meta charset ="UTF-8">
+    <link href="Quiz.css" rel="stylesheet" type="text/css">
+    <script src ="Quiz.js"></script>
+</head>
+
+<body>
+    <div class="container">
+    <header>
+        <div class="main_header">
+        <h1 class="title"> Obsidian Tickets</h1>
+    </div>
+        <nav class="menu_header" id="menu">
+            <ul>
+                <a href="homePage.html"><li >Home Page</li></a>
+                <li>Purchase tickets</li>
+                <li>View Venues</li>
+                <a href="Quizz.html"><li>Quiz</li></a>
+                <a href="FAQ.html"><li>FAQ'S</li></a>
+                <li>My Cart</li>
+            </ul>
+        </nav>
+    </header>
+
+<!--QUIZ GOES HERE-->
+    <h2> Quiz Page Header</h2>
+        
+    <div id ="q-text">
+
+
+    </div>
+
+    <div id = "ctrl">
+        <button class ="b-ctrl" id = "restart" onclick = restart() >Restart</button>
+        <button class ="b-ctrl" id ="prev" onclick = prev()>Prev</button>
+        <button class ="b-ctrl" id ="next" onclick = next() >Next</button>
+        <button class ="b-ctrl" id ="submit" onclick = submit()>Get Results</button>
+    </div>
+
+    <div id ="results">
+
+    </div>
+
+    <div class ="start">
+        <button id ="startquiz" onclick = showQuestions()>Start</button>
+    </div>
+    </div>
+</body>
+
+</html>
